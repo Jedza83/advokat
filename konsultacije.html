@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advokat Jelena Milosavljević</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="content">
+      <section class="home">
+        <header>
+          <a href="#" class="logo"
+            >Advokat <span> Jelena Milosavljević</span></a
+          >
+
+          <div class="menubtn">
+            <img src="images/menu.svg" alt="" />
+          </div>
+          <nav class="navbar">
+            <a href="index.html">Naslovna</a>
+            <a href="omeni.html">O meni</a>
+            <a href="usluge.html">Usluge</a>
+            <a href="kontakt.html">Kontakt</a>
+          </nav>
+
+          <a href="#" class="btn">konsultacije</a>
+        </header>
+
+        <section class="contact">
+          <div class="heading">
+            <h3>Zakažite konsultacije</h3>
+          </div>
+
+          <form method="post" action="send_email.php">
+            <input
+              type="text"
+              name="ime_prezime"
+              placeholder="Ime i prezime"
+              class="box"
+            />
+            <input type="email" name="email" placeholder="Email" class="box" />
+            <input
+              type="text"
+              name="poruka"
+              placeholder="Predmet"
+              class="box"
+            />
+            <textarea name="poruka" placeholder="Poruka"></textarea>
+            <button type="submit" class="btn" a href="thank_you.html">
+              Pošalji
+            </button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer class="copy">
+      &copy; Advokat Jelena Milosavljević | 2024 All rights reserved
+    </footer>
+
+    <a href="#" class="gotop"><img src="images/arrow-up.svg" alt="" /></a>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
