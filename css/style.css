@@ -34,6 +34,9 @@ body {
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
+.content h1 {
+  margin-bottom: 50px;
+}
 
 .copy {
   background: black;
@@ -45,8 +48,16 @@ body {
   width: 100%;
 }
 
-.biografija {
+#biografija {
   width: 20rem;
+  height: 25rem;
+  margin-right: 30px;
+  border-radius: 24px;
+}
+#potrosac,
+#imovina,
+#nasledno {
+  width: 25rem;
   height: 25rem;
   margin-right: 30px;
   border-radius: 24px;
@@ -444,7 +455,9 @@ button {
 .gotop.active {
   display: block;
 }
-
+.inheritance {
+  color: #fff;
+}
 /* responsive */
 @media (max-width: 769px) {
   .home {
