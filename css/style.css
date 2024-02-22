@@ -12,14 +12,7 @@ html {
 }
 
 body {
-  background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.5) 50%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
-    url(../images/home1.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #1f3667;
   position: relative;
   overflow-x: hidden;
   margin: 0;
@@ -472,22 +465,24 @@ button {
   header .menubtn {
     display: block;
   }
+
   header .navbar {
     position: absolute;
     top: 10%;
     left: 0;
     right: 0;
-    background: #fff;
+    background: #1f3667;
     padding: 10px;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: 0.2s linear;
+    z-index: +1;
   }
   header .navbar.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   header .navbar a {
     display: block;
-    color: #202022;
+    color: #fff;
     font-size: 18px;
     margin: 10px 0;
   }
